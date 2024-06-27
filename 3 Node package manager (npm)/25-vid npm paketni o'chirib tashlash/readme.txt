@@ -1,0 +1,1 @@
+npm uninstall paket_nomi - bu buyruq bilan ko'rsatilgan paketni o'chrib tashlash mumkin

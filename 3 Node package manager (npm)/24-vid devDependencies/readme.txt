@@ -1,0 +1,1 @@
+developer dependencies - dasturni qurish jarayonida ishlatiladi lekin productionda ishlatilmaydi

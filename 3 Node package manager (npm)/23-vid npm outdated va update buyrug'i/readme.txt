@@ -1,0 +1,2 @@
+npm outdated - loyihada ishlatilgan eskirganpaketlar ro'yxatini chiqaradi. Ularni ishlatilayotgan, kerakli va eng yangi versiyalarini ko'rsatadi.
+npm update - loyihadagi paketlarning patch va minor versiyalarini yangilaydi

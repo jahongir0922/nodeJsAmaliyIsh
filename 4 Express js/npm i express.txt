@@ -1,0 +1,18 @@
+npm init --yes
+npm install express
+code .    ////bu buyruq visual studioni ochib beradi
+
+npm i nodemon  /// nodemon dasturini o'rnatish
+nodemon index.js /// nodemone dasturidan foydalanish
+
+sudo pkill node   ///node va nodemon serverini to'xtatish
+
+set port=5002  ///windowsda terminalda muhit o'zgaruvchisini e'lon qilib unga qiymat berish.
+export port=5002 ///linuxda terminalda muhit o'zgaruvchisini e'lon qilib unga qiymat berish.
+
+kerakli kutubxonalar:
+npm install joi yoki npm install --save @hapi/joi@15.0.3
+npm install helmet ///security
+npm install morgan ///logger
+npm install config ///dastur sozlamalari
+npm install pug /// view engine

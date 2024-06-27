@@ -1,0 +1,10 @@
+const path = require("path");
+// console.log(__filename);
+const pathObj = path.parse(__filename);
+// console.log(pathObj);
+const pathBaseName = path.basename(__filename);
+// console.log(pathBaseName);
+const pathJoin = path.join(__filename);
+// console.log(pathJoin);
+const pathNormalize=path.normalize(__filename);
+// console.log(pathNormalize);

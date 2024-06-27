@@ -1,0 +1,37 @@
+1. Installing NVM on Ubuntu
+sudo apt install curl
+curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
+source ~/.bashrc   
+
+2. Installing Node using NVM
+Install the latest version of node.js. Here node is the alias for the latest version.
+nvm install node 
+
+To install a specific version of node:
+nvm install 18.16.0 
+
+You can also install the latest LTS (Long Term Support) version of Node.js by running:
+nvm install --lts
+
+
+
+3. Working with NVM
+You can use the following command to list installed versions of the node for the current user.
+nvm ls 
+
+With this command, you can find the available node.js version for the installation.
+nvm ls-remote 
+
+You can also select a different version for the current session. The selected version will be the currently active version for the current shell only.
+nvm use 18.16.0 
+
+To find the default Node version set for the current user, type:
+nvm run default --version 
+
+You can run a Node script with the desired version of node.js using the below command:
+nvm exec 18.16.0 server.js 
+
+
+4. Uninstall Node Version
+To uninstall a specific Node.js version, use the nvm uninstall command followed by the version number. You can find the installed versions using `nvm ls` command. For example, if you want to uninstall Node.js version 18.16.0, run the following command:
+nvm uninstall 18.16.0 
