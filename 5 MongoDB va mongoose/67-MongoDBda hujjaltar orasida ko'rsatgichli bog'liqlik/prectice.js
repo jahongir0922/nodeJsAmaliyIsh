@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 mongoose
-  .connect("mongodb://localhost/test")
+  .connect("mongodb://localhost/practice")
   .then(() => {
     console.log("mongoDBga ulandi");
   })

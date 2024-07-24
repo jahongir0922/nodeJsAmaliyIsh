@@ -31,4 +31,12 @@ mangoose classining methodlari
  
  mongoimport --db test --collection inventory --file "C:\temp\inventory.json" --drop  ///bu yerda - test - database nomi, inventory - collection nomi, C:\temp\inventory.json - file qayerdaligi va nomi, 	
  											--drop - databaseda kiritilgan nomdagi collection mavjud bo'lsa eskisini o'chirvoradi
+
+nom i run-rs -g 			////run-rs ni install qilish
+sudo apt-get install libkrb5-dev 	///run-rs install bo'lmasa
+		
+run-rs --mongod --keep ////tranzaksiyalar bilash ishlash uchun alohida terminalda yuzgaziladi. 
+			--mongod - bu kalit kompyuterdagi database bilan ishlashlik haqida buyruq oladi. Agar bu kalit kiritilmasa alohida mongodb yuklab olib ishlaydi.
+			--keep - bu kalit kompyuterda ishlab turgan database ma'lumotlari o'chib ketmasligi haqida buyruq oladi.
+ 
  
