@@ -5,6 +5,7 @@ const path = require("path");
 const mongoose = require("mongoose");
 const multer = require("multer");
 const GridFsStorage = require("multer-gridfs-storage");
+const { send } = require("process");
 
 // Middleware
 app.use(express.json());
@@ -86,7 +87,6 @@ app.get("/", (req, res) => {
 });
 
 app.post("/upload", upload.single("file"), (req, res) => {
-  console.log("object");
   res.redirect("/");
 });
 
