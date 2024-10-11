@@ -1,5 +1,4 @@
 const Joi = require("@hapi/joi");
-const { type } = require("express/lib/response");
 const mongoose = require("mongoose");
 const enrolmentSchema = new mongoose.Schema({
   customer: {

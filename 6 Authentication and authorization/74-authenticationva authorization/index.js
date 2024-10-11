@@ -1,4 +1,5 @@
 const express = require("express");
+const usersRoute = require("./routes/users");
 const categoriesRoute = require("./routes/categories");
 const customersRoute = require("./routes/customers");
 const coursesRouter = require("./routes/courses");
@@ -16,6 +17,7 @@ mongoose
   });
 
 app.use(express.json());
+app.use("/api/users", usersRoute);
 app.use("/api/categories", categoriesRoute);
 app.use("/api/customers", customersRoute);
 app.use("/api/courses", coursesRouter);
