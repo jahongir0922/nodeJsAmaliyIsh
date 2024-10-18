@@ -1,5 +1,5 @@
 {
-  "name": "74-auth",
+  "name": "Deployment practice",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "start": "node index.js"
   },
   "engines": {
-    "node": "20.17.0"
+    "node": "20.x"
   },
   "keywords": [],
   "author": "",
