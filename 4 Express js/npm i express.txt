@@ -3,7 +3,9 @@ npm install express
 code .    ////bu buyruq visual studioni ochib beradi
 
 npm i nodemon  /// nodemon dasturini o'rnatish
-nodemon index.js /// nodemone dasturidan foydalanish
+nodemon index.js /// nodemone dasturidan foydalanish 
+bu buyruq windowsda ishlamasa powershel yoki cmd ni adminstratorda ochib bu buyruqni berish kerak - Set-ExecutionPolicy RemoteSigned
+
 
 sudo pkill node   ///node va nodemon serverini to'xtatish
 

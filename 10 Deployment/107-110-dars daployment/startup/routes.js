@@ -1,4 +1,5 @@
 const express = require("express");
+const welcome = require("../routes/welcome");
 const usersRoute = require("../routes/users");
 const authRoute = require("../routes/auth");
 const categoriesRoute = require("../routes/categories");
@@ -8,6 +9,7 @@ const enrolmentsRouter = require("../routes/enrolments");
 
 module.exports = function (app) {
   app.use(express.json());
+  app.use("/", welcome);
   app.use("/api/users", usersRoute);
   app.use("/api/auth", authRoute);
   app.use("/api/categories", categoriesRoute);
